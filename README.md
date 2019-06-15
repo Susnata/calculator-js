@@ -1,3 +1,3 @@
 # calculator-js
 Calculator in Vanilla JS
-Awesome Calculator App!!!!
+Awesome Calculator App!
