@@ -1,0 +1,21 @@
+h3{
+  text-align: center;
+}
+div.container{
+  width: 200px;
+  padding: 1rem;
+  border: 1px solid #c3bebe;
+}
+.container button{
+  width: 100%;
+  border-bottom: 1px solid #c3bebe;
+  border-right: 1px solid #c3bebe;
+}
+div#display-main{
+  width: 100%;
+  height: 60px;
+  margin: 0 0 1rem 0;
+  border: 1px #c3bebe solid;
+  padding: 0.5rem;
+  text-align: right;
+}

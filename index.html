@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h3>Basic Calculator</h3>
+  <!-- <div id="display"></div> -->
+  <div id="calculator" class="container">
+      <div id="display-main">
+        <div id="display-input"></div>
+        <div id="display-result"></div>
+      </div>
+    <div class="row no-gutters">
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=7> 7 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=8> 8 </button>
+        </div>
+        <div class="col-sm">  
+          <button type="button" class="btn btn-light" data-type="operand" data-value=9> 9 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operator" data-operation="/"> / </button>
+        </div>
+    </div>
+      
+    <div class="row no-gutters">
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=4> 4 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=5> 5 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=6> 6 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light btn-wide" data-type="operator" data-operation="X">  x </button>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=1> 1 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=2> 2 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=3> 3 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operator" data-operation="+"> + </button>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="operand" data-value=0> 0 </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light btn-wide" data-type="operand" data-value="."> . </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light" data-type="evaluate" data-operation="evaluate"> = </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-light btn-wide" data-type="operator" data-operation="-"> - </button>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+          <button type="button" class="btn btn-light btn-block-custom" data-type="delete"> DELETE </button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
